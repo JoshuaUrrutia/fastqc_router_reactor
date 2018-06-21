@@ -1,0 +1,16 @@
+---
+logs:
+  level: DEBUG
+  token: ~
+fastqc:
+  appId: urrutia-fastqc-0.11.7
+  name: fastqc_test
+  archive: true
+  archivePath: ""
+  archiveSystem: ""
+  inputs:
+    fastq: ""
+  notifications:
+    -
+      event: FAILED
+      url: jurrutia@tacc.utexas.edu
