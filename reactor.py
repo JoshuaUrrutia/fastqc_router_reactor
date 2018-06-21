@@ -1,8 +1,7 @@
-#from reactors.runtime import Reactor
 from reactors.utils import Reactor, agaveutils
 import copy
 import json
-#from agaveutils import *
+
 
 def submit(r,system,path):
     ag = r.client
