@@ -3,5 +3,5 @@ REACTOR_NAME=fastqc_router
 
 # Docker settings
 DOCKER_HUB_ORG=jurrutia
-DOCKER_IMAGE_TAG=example_actor
+DOCKER_IMAGE_TAG=fastqc_router
 DOCKER_IMAGE_VERSION=0.1

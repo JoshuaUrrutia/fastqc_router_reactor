@@ -31,8 +31,6 @@ def main():
     r.logger.info("Hello this is actor {}".format(r.uid))
     context = r.context
     print(context)
-    #system = urllib.unquote_plus(m.systemId)
-    #path = urllib.unquote_plus(m.path)
     file = context.message_dict.file
     print(file)
     system = file.get('systemId')
