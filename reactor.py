@@ -20,7 +20,7 @@ def submit(r,system,path):
     except Exception as e:
         print(json.dumps(job_def, indent=4))
         print("Error submitting job: {}".format(e))
-        print e.response.content
+        print(e.response.content)
         return
     return
 
